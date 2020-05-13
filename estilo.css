@@ -1,0 +1,141 @@
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 150px;
+    width:100%;
+    margin-top: -25px;
+}
+
+#header1{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    color: white;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+ul {
+    position: relative;
+    background:rgba(0, 0, 0, 0.4);
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    
+}
+
+ul li:hover {
+    background-color: silver;
+}
+
+
+
+/* IDS CONTEINER */
+#principal {
+    background-image: url('plano_fundo.jpg');
+    background-size: 100%;
+    min-height: 500px;
+    
+
+}
+
+#h2p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.4);
+}
+
+#pp{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#parte1{
+    background-color: white;
+    min-height: 200px;
+    width: 50%;
+    float: left;
+}
+
+#parte2{
+    background-color: white;
+    min-height: 200px;
+    width: 50%;
+    float: right;
+}
+
+
+
+/* FOTOS */
+
+#foto1{
+    text-align: center;
+    margin-left:10px;
+       
+}
+
+.fotinha{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: silver;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 0px 0px;
+    color: white;
+    font-size: 20px;
+
+    
+}
+
+
+/* REDES SOCIAIS ID */
+
+#fb{
+    margin: 15px 10px 10px 10px;
+}
+
+#fb1 {
+    margin-top: 10px 0px 0px 5px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#insta2{
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/*CLASS RESOLUÇÃO */
+
+.corpo{
+    width: 960px;
+    margin: auto;
+}
